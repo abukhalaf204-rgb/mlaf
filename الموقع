@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كهربائي وسباك جدة | 0502758169 | خدمات منزلية احترافية 24 ساعة</title>
+<meta name="description" content="كهربائي وسباك جدة — خدمة فورية 24 ساعة في جميع أحياء جدة. إصلاح كهرباء، سباكة، تسريب مياه، تمديد كابلات. اتصل الآن 0502758169">
+<meta name="keywords" content="كهربائي جدة, سباك جدة, كشف تسربات المياه جدة, إصلاح كهرباء جدة, فني كهربائي جدة, سباك ممتاز جدة, كهربائي حي الروضة, سباك حي السلامة">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--gold:#F5A623;--gold-dark:#D4891A;--blue-deep:#0A1628;--blue-mid:#0D2240;
+--blue-light:#1A3A6B;--electric:#00C2FF;--electric-glow:#0099CC;
+--white:#FFFFFF;--gray-mid:#6C7A8D;--success:#28A745;--whatsapp:#25D366;
+--red:#E63946;--red-dark:#C1121F;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',sans-serif;background:var(--blue-deep);color:var(--white);overflow-x:hidden}
+
+/* TOP BAR */
+.topbar{background:var(--gold);text-align:center;padding:9px 20px;font-size:14px;font-weight:700;color:var(--blue-deep)}
+
+/* OFFER BANNER */
+.offer-banner{background:linear-gradient(135deg,var(--red-dark),#8B0000);text-align:center;padding:14px 20px;position:relative;overflow:hidden}
+.offer-banner::before{content:'';position:absolute;top:0;left:-50%;width:200%;height:100%;background:repeating-linear-gradient(90deg,rgba(255,255,255,0.03) 0px,rgba(255,255,255,0.03) 1px,transparent 1px,transparent 40px)}
+.offer-inner{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.offer-badge{background:var(--gold);color:var(--blue-deep);font-size:28px;font-weight:900;padding:8px 22px;border-radius:50px;line-height:1;animation:pulseBadge 1.5s infinite}
+@keyframes pulseBadge{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.offer-text{font-size:18px;font-weight:700;color:var(--white);line-height:1.4}
+.offer-text span{color:var(--gold);font-size:22px}
+.offer-expire{font-size:12px;color:rgba(255,255,255,0.7);margin-top:2px}
+
+/* HEADER */
+header{background:var(--blue-mid);border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:100;padding:12px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-icon{width:52px;height:52px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.logo-text h1{font-size:18px;font-weight:900;color:var(--gold);line-height:1.1}
+.logo-text .logo-num{font-size:15px;color:var(--electric);font-weight:700;direction:ltr;text-align:right}
+.logo-text p{font-size:11px;color:rgba(255,255,255,0.6)}
+.header-phone a{background:var(--gold);color:var(--blue-deep);padding:10px 20px;border-radius:30px;font-weight:900;font-size:16px;text-decoration:none;display:flex;align-items:center;gap:8px;transition:all .3s}
+.header-phone a:hover{background:var(--gold-dark);transform:scale(1.05)}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--blue-deep) 0%,var(--blue-mid) 40%,var(--blue-light) 100%);padding:70px 5% 55px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(0,194,255,0.12) 0%,transparent 70%);border-radius:50%}
+.hero::after{content:'';position:absolute;bottom:-80px;left:-80px;width:300px;height:300px;background:radial-gradient(circle,rgba(245,166,35,0.1) 0%,transparent 70%);border-radius:50%}
+.hero-badge{display:inline-block;background:rgba(0,194,255,0.15);border:1px solid var(--electric);color:var(--electric);padding:6px 20px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:18px}
+.hero h2{font-size:clamp(28px,6vw,54px);font-weight:900;line-height:1.3;margin-bottom:10px;color:var(--white)}
+.hero h2 span{color:var(--gold)}
+.hero-phone-big{font-size:clamp(22px,4vw,36px);font-weight:900;color:var(--electric);margin:14px 0;direction:ltr;letter-spacing:1px}
+.hero-phone-big a{color:var(--electric);text-decoration:none}
+.hero-phone-big a:hover{color:var(--gold)}
+.hero p.subtitle{font-size:17px;color:rgba(255,255,255,0.75);max-width:600px;margin:0 auto 36px;line-height:1.8}
+.hero-stats{display:flex;justify-content:center;gap:36px;flex-wrap:wrap;margin-bottom:44px}
+.stat{text-align:center}
+.stat-num{font-size:34px;font-weight:900;color:var(--gold);line-height:1}
+.stat-label{font-size:12px;color:rgba(255,255,255,0.65);margin-top:4px}
+.hero-icons{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;margin-top:36px;position:relative;z-index:1}
+.hero-icon-item{text-align:center}
+.hero-icon-circle{width:84px;height:84px;border-radius:50%;border:2px solid var(--gold);background:rgba(245,166,35,0.08);display:flex;align-items:center;justify-content:center;font-size:36px;margin:0 auto 8px;transition:all .3s}
+.hero-icon-circle:hover{background:rgba(245,166,35,0.2);transform:translateY(-5px)}
+.hero-icon-item p{font-size:12px;color:rgba(255,255,255,0.8);font-weight:600}
+
+/* CTA */
+.cta-section{background:var(--blue-mid);padding:55px 5%;text-align:center}
+.cta-section h3{font-size:26px;font-weight:900;color:var(--white);margin-bottom:6px}
+.cta-section .cta-num{font-size:20px;font-weight:700;color:var(--gold);margin-bottom:8px;direction:ltr}
+.cta-section p{color:rgba(255,255,255,0.6);margin-bottom:36px;font-size:14px}
+.cta-buttons{display:flex;flex-direction:column;align-items:center;gap:14px;max-width:480px;margin:0 auto}
+.btn{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:17px 28px;border-radius:16px;font-family:'Cairo',sans-serif;font-size:17px;font-weight:700;text-decoration:none;transition:all .3s;cursor:pointer;border:none;position:relative;overflow:hidden}
+.btn::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:rgba(255,255,255,0.1);transition:left .4s}
+.btn:hover::before{left:0}
+.btn-call{background:linear-gradient(135deg,var(--red),var(--red-dark));color:var(--white);box-shadow:0 8px 25px rgba(230,57,70,.35)}
+.btn-call:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(230,57,70,.5)}
+.btn-whatsapp{background:linear-gradient(135deg,#25D366,#128C7E);color:var(--white);box-shadow:0 8px 25px rgba(37,211,102,.35)}
+.btn-whatsapp:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(37,211,102,.5)}
+.btn-book{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--blue-deep);box-shadow:0 8px 25px rgba(245,166,35,.35)}
+.btn-book:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(245,166,35,.5)}
+.btn-consult{background:linear-gradient(135deg,var(--electric),var(--electric-glow));color:var(--blue-deep);box-shadow:0 8px 25px rgba(0,194,255,.3)}
+.btn-consult:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(0,194,255,.5)}
+.btn-icon{font-size:22px}
+
+/* SECTION HEADER */
+.section-header{text-align:center;margin-bottom:46px}
+.section-header .eyebrow{color:var(--electric);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
+.section-header h3{font-size:30px;font-weight:900;color:var(--white);margin-bottom:10px}
+.section-header p{color:rgba(255,255,255,0.6);font-size:15px}
+
+/* SERVICES */
+.services{padding:65px 5%;background:var(--blue-deep)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1200px;margin:0 auto}
+.service-card{background:var(--blue-mid);border:1px solid rgba(255,255,255,0.07);border-radius:18px;padding:26px 20px;text-align:center;transition:all .3s;position:relative;overflow:hidden}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--electric));transform:scaleX(0);transition:transform .3s}
+.service-card:hover::before{transform:scaleX(1)}
+.service-card:hover{transform:translateY(-7px);border-color:rgba(245,166,35,.3);box-shadow:0 18px 45px rgba(0,0,0,.4)}
+.service-emoji{font-size:44px;display:block;margin-bottom:14px}
+.service-card h4{font-size:17px;font-weight:700;color:var(--gold);margin-bottom:8px}
+.service-card p{font-size:13px;color:rgba(255,255,255,0.65);line-height:1.7}
+
+/* WHY US */
+.why-us{background:var(--blue-mid);padding:65px 5%}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px;max-width:1000px;margin:0 auto}
+.why-card{background:rgba(0,194,255,0.05);border:1px solid rgba(0,194,255,0.15);border-radius:14px;padding:26px 18px;text-align:center;transition:all .3s}
+.why-card:hover{background:rgba(0,194,255,0.12);border-color:rgba(0,194,255,.35);transform:translateY(-5px)}
+.why-icon{font-size:38px;display:block;margin-bottom:12px}
+.why-card h4{font-size:15px;font-weight:700;color:var(--electric);margin-bottom:7px}
+.why-card p{font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6}
+
+/* FAQ */
+.faq-section{background:var(--blue-deep);padding:65px 5%}
+.faq-list{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.faq-item{background:var(--blue-mid);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;transition:border-color .3s}
+.faq-item.open{border-color:rgba(245,166,35,.35)}
+.faq-q{padding:18px 22px;cursor:pointer;font-size:16px;font-weight:700;color:var(--white);display:flex;justify-content:space-between;align-items:center;gap:12px;user-select:none}
+.faq-q:hover{color:var(--gold)}
+.faq-q .faq-icon{color:var(--gold);font-size:20px;flex-shrink:0;transition:transform .3s}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a-inner{padding:0 22px 20px;font-size:14px;color:rgba(255,255,255,0.75);line-height:1.8;border-top:1px solid rgba(255,255,255,0.06)}
+.faq-a-inner p{padding-top:14px}
+.faq-keywords{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+.faq-kw{background:rgba(0,194,255,0.1);border:1px solid rgba(0,194,255,0.2);color:var(--electric);font-size:11px;padding:3px 10px;border-radius:20px}
+
+/* AREAS */
+.areas-section{background:var(--blue-mid);padding:65px 5%}
+.areas-tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
+.area-tab{padding:9px 22px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:30px;cursor:pointer;font-family:'Cairo',sans-serif;font-size:14px;font-weight:700;color:rgba(255,255,255,0.7);transition:all .3s}
+.area-tab.active,.area-tab:hover{background:var(--gold);color:var(--blue-deep);border-color:var(--gold)}
+.areas-panel{display:none}
+.areas-panel.active{display:block}
+.area-direction-title{font-size:18px;font-weight:900;color:var(--gold);margin-bottom:20px;text-align:center;display:flex;align-items:center;justify-content:center;gap:10px}
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;max-width:1100px;margin:0 auto}
+.area-card{background:var(--blue-deep);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:16px 18px;transition:all .3s}
+.area-card:hover{border-color:rgba(245,166,35,.3);transform:translateY(-3px)}
+.area-card h5{font-size:15px;font-weight:700;color:var(--white);margin-bottom:8px}
+.area-kws{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.area-kw{background:rgba(245,166,35,0.08);border:1px solid rgba(245,166,35,0.15);color:rgba(255,255,255,0.65);font-size:10px;padding:2px 8px;border-radius:20px;line-height:1.5}
+
+/* REVIEW */
+.review-section{background:var(--blue-deep);padding:65px 5%}
+.review-form-box{background:var(--blue-mid);border:1px solid rgba(245,166,35,.2);border-radius:22px;padding:36px;max-width:580px;margin:0 auto 46px}
+.review-form-box h4{font-size:19px;font-weight:900;color:var(--gold);margin-bottom:22px;text-align:center}
+.star-rating{display:flex;gap:8px;justify-content:center;margin-bottom:18px}
+.star{font-size:34px;cursor:pointer;transition:transform .15s;color:rgba(255,255,255,0.2);line-height:1}
+.star.active{color:var(--gold)}
+.star:hover{transform:scale(1.2);color:var(--gold)}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:600;color:rgba(255,255,255,0.8);margin-bottom:7px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:12px 15px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);border-radius:10px;color:var(--white);font-family:'Cairo',sans-serif;font-size:14px;outline:none;transition:border-color .2s;direction:rtl}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--gold)}
+.form-group select option{background:var(--blue-mid);color:var(--white)}
+.form-group textarea{resize:vertical;min-height:90px}
+.form-submit{width:100%;padding:14px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--blue-deep);font-family:'Cairo',sans-serif;font-size:16px;font-weight:900;border:none;border-radius:12px;cursor:pointer;transition:all .3s;margin-top:6px}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(245,166,35,.4)}
+.reviews-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;max-width:900px;margin:0 auto}
+.review-card{background:var(--blue-mid);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:22px;transition:all .3s}
+.review-card:hover{border-color:rgba(245,166,35,.25);transform:translateY(-4px)}
+.review-stars{color:var(--gold);font-size:17px;margin-bottom:10px}
+.review-text{font-size:13px;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:14px}
+.reviewer{display:flex;align-items:center;gap:10px}
+.reviewer-avatar{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--electric));display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;color:var(--blue-deep);flex-shrink:0}
+.reviewer-name{font-size:13px;font-weight:700;color:var(--white)}
+.reviewer-loc{font-size:11px;color:var(--gray-mid)}
+
+/* EMERGENCY */
+.emergency{background:linear-gradient(135deg,var(--red),var(--red-dark));padding:40px 5%;text-align:center}
+.emergency h3{font-size:24px;font-weight:900;color:var(--white);margin-bottom:6px}
+.emergency p{color:rgba(255,255,255,0.85);margin-bottom:22px;font-size:14px}
+.emergency a{display:inline-flex;align-items:center;gap:10px;background:var(--white);color:var(--red-dark);padding:13px 34px;border-radius:50px;font-weight:900;font-size:19px;text-decoration:none;transition:all .3s}
+.emergency a:hover{background:var(--gold);color:var(--blue-deep);transform:scale(1.05)}
+
+/* FOOTER */
+footer{background:#060E1C;padding:36px 5% 18px;text-align:center;border-top:2px solid var(--gold)}
+.footer-logo{font-size:20px;font-weight:900;color:var(--gold);margin-bottom:8px}
+.footer-phone{font-size:24px;font-weight:900;color:var(--electric);text-decoration:none;display:block;margin-bottom:14px;direction:ltr}
+.footer-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-bottom:20px}
+.footer-links a{color:rgba(255,255,255,0.6);text-decoration:none;font-size:13px;transition:color .2s;cursor:pointer}
+.footer-links a:hover{color:var(--gold)}
+.footer-copy{font-size:11px;color:rgba(255,255,255,.3);border-top:1px solid rgba(255,255,255,.07);padding-top:18px;margin-top:8px}
+
+/* FLOAT WA */
+.float-wa{position:fixed;bottom:26px;left:26px;z-index:200;width:60px;height:60px;background:var(--whatsapp);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;text-decoration:none;box-shadow:0 6px 25px rgba(37,211,102,.5);animation:pulseWa 2s infinite}
+@keyframes pulseWa{0%,100%{box-shadow:0 6px 25px rgba(37,211,102,.5)}50%{box-shadow:0 6px 40px rgba(37,211,102,.85)}}
+
+/* MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:500;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.active{display:flex}
+.modal{background:var(--blue-mid);border:1px solid var(--gold);border-radius:22px;padding:36px 28px;max-width:500px;width:100%;position:relative;max-height:90vh;overflow-y:auto}
+.modal h3{font-size:20px;font-weight:900;color:var(--gold);margin-bottom:22px;text-align:center}
+.modal-close{position:absolute;top:14px;left:14px;background:rgba(255,255,255,.1);border:none;color:var(--white);width:34px;height:34px;border-radius:50%;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:'Cairo',sans-serif}
+
+.success-msg{display:none;background:rgba(40,167,69,.15);border:1px solid var(--success);border-radius:10px;padding:14px;text-align:center;color:#5EB866;font-weight:700;font-size:15px;margin-top:10px}
+
+/* SEO hidden text */
+.seo-text{font-size:12px;color:rgba(255,255,255,0.35);line-height:1.8;text-align:center;padding:20px 5%;max-width:900px;margin:0 auto}
+
+@media(max-width:600px){
+  .hero{padding:46px 5% 36px}
+  .hero h2{font-size:24px}
+  .hero-stats{gap:20px}
+  .stat-num{font-size:28px}
+  header{padding:10px 4%}
+  .logo-text h1{font-size:14px}
+  .modal{padding:24px 16px}
+  .review-form-box{padding:22px 16px}
+  .hero-icons{gap:24px}
+  .hero-icon-circle{width:68px;height:68px;font-size:28px}
+  .offer-badge{font-size:22px}
+  .offer-text{font-size:15px}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">⚡ كهربائي وسباك جدة | خدمة فورية 24/7 | جميع الأحياء | 0502758169 ⚡</div>
+
+<!-- OFFER BANNER -->
+<div class="offer-banner">
+  <div class="offer-inner">
+    <div class="offer-badge">🔥 خصم 30%</div>
+    <div class="offer-text">
+      <div>عرض <span>خاص ومحدود</span> على جميع خدمات الكهرباء والسباكة</div>
+      <div class="offer-expire">⏳ العرض سارٍ — اتصل الآن واستفد من الخصم قبل انتهائه</div>
+    </div>
+    <div class="offer-badge">⚡ وفّر الآن</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-icon">⚡</div>
+    <div class="logo-text">
+      <h1>كهربائي وسباك جدة</h1>
+      <div class="logo-num">📞 0502758169</div>
+      <p>خدمة احترافية موثوقة على مدار الساعة</p>
+    </div>
+  </div>
+  <div class="header-phone">
+    <a href="tel:0502758169">📞 0502758169</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">✅ خبرة +15 سنة في جدة | خصم 30% الآن</div>
+  <h2>كهربائي وسباك <span>جدة</span><br>خدمة احترافية فورية</h2>
+  <div class="hero-phone-big">📞 <a href="tel:0502758169">0502758169</a></div>
+  <p class="subtitle">نصل إليك في أسرع وقت لإصلاح جميع أعطال الكهرباء والسباكة بضمان وأسعار منافسة — <strong>واستمتع بخصم 30% على أول طلب</strong></p>
+
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">+5000</div><div class="stat-label">عميل سعيد</div></div>
+    <div class="stat"><div class="stat-num">15+</div><div class="stat-label">سنة خبرة</div></div>
+    <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">خدمة طوارئ</div></div>
+    <div class="stat"><div class="stat-num">30%</div><div class="stat-label">خصم خاص</div></div>
+  </div>
+
+  <div class="hero-icons">
+    <div class="hero-icon-item"><div class="hero-icon-circle">⚡</div><p>أعمال كهربائية</p></div>
+    <div class="hero-icon-item"><div class="hero-icon-circle">🔧</div><p>أعمال سباكة</p></div>
+    <div class="hero-icon-item"><div class="hero-icon-circle">🚨</div><p>طوارئ فورية</p></div>
+    <div class="hero-icon-item"><div class="hero-icon-circle">🛡️</div><p>ضمان العمل</p></div>
+  </div>
+</section>
+
+<!-- CTA BUTTONS -->
+<section class="cta-section">
+  <h3>تواصل معنا الآن</h3>
+  <div class="cta-num">📞 0502758169</div>
+  <p>نحن هنا لخدمتك في أي وقت — واستمتع بخصم 30% على جميع الخدمات</p>
+  <div class="cta-buttons">
+    <a href="tel:0502758169" class="btn btn-call"><span class="btn-icon">📞</span><span>اتصل الآن — 0502758169</span></a>
+    <a href="https://wa.me/966502758169?text=السلام عليكم، أريد الاستفسار عن خدماتكم والاستفادة من خصم 30%" target="_blank" class="btn btn-whatsapp"><span class="btn-icon">💬</span><span>راسلني واتساب</span></a>
+    <button onclick="openModal('booking')" class="btn btn-book"><span class="btn-icon">📅</span><span>احجز موعد</span></button>
+    <button onclick="openModal('consult')" class="btn btn-consult"><span class="btn-icon">💡</span><span>استشارة مجانية</span></button>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="section-header">
+    <div class="eyebrow">خدماتنا</div>
+    <h3>كل ما تحتاجه في مكان واحد</h3>
+    <p>حلول شاملة للكهرباء والسباكة بأعلى معايير الجودة — بخصم 30%</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card"><span class="service-emoji">⚡</span><h4>تمديد كهربائي</h4><p>تمديد الأسلاك والكابلات الكهربائية لجميع المباني السكنية والتجارية بأعلى معايير السلامة في جدة</p></div>
+    <div class="service-card"><span class="service-emoji">🔌</span><h4>إصلاح أعطال الكهرباء</h4><p>تشخيص وإصلاح جميع أعطال الكهرباء بسرعة واحترافية مع ضمان عدم التكرار</p></div>
+    <div class="service-card"><span class="service-emoji">💡</span><h4>تركيب الإضاءة</h4><p>تركيب وتبديل جميع أنواع الإضاءة LED والكلاسيكية وإضاءة الديكور والطوارئ</p></div>
+    <div class="service-card"><span class="service-emoji">🔧</span><h4>إصلاح السباكة</h4><p>إصلاح جميع أعطال السباكة من تسريب مياه وانسداد مجاري وصنابير وخزانات</p></div>
+    <div class="service-card"><span class="service-emoji">🚿</span><h4>تمديد المواسير</h4><p>تمديد مواسير المياه الباردة والساخنة واستبدال المواسير القديمة التالفة</p></div>
+    <div class="service-card"><span class="service-emoji">🛁</span><h4>تركيب الصحيات</h4><p>تركيب وتبديل المراحيض والأحواض والدشات وجميع أدوات الصحيات</p></div>
+    <div class="service-card"><span class="service-emoji">🏗️</span><h4>لوحات كهربائية</h4><p>تركيب وصيانة لوحات التوزيع الكهربائية وتبديل القواطع الكهربائية</p></div>
+    <div class="service-card"><span class="service-emoji">💧</span><h4>كشف تسربات المياه</h4><p>كشف تسربات المياه المخفية بأجهزة حديثة دون إتلاف الجدران أو البلاط</p></div>
+    <div class="service-card"><span class="service-emoji">🔋</span><h4>أنظمة الطاقة الشمسية</h4><p>تركيب وصيانة الأنظمة الشمسية للمنازل والمنشآت التجارية</p></div>
+    <div class="service-card"><span class="service-emoji">🏠</span><h4>صيانة منزلية شاملة</h4><p>خدمة صيانة منزلية متكاملة تشمل الكهرباء والسباكة والتكييف</p></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-us">
+  <div class="section-header">
+    <div class="eyebrow">لماذا تختارنا</div>
+    <h3>مزايانا التي تميزنا في جدة</h3>
+    <p>نضمن لك أفضل تجربة خدمة مع خصم 30%</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card"><span class="why-icon">🚀</span><h4>استجابة سريعة</h4><p>نصل إليك خلال ساعة في جميع مناطق جدة</p></div>
+    <div class="why-card"><span class="why-icon">🛡️</span><h4>ضمان على العمل</h4><p>نضمن جميع أعمالنا بضمان مكتوب وشفافية كاملة</p></div>
+    <div class="why-card"><span class="why-icon">💰</span><h4>أسعار منافسة</h4><p>خصم 30% على أسعارنا العادلة الشفافة بلا رسوم خفية</p></div>
+    <div class="why-card"><span class="why-icon">🏆</span><h4>فنيون معتمدون</h4><p>فريق من الفنيين المدربين وحاملي شهادات معتمدة</p></div>
+    <div class="why-card"><span class="why-icon">🕐</span><h4>متاح 24/7</h4><p>خدمة طوارئ متاحة على مدار الساعة طوال الأسبوع</p></div>
+    <div class="why-card"><span class="why-icon">✅</span><h4>رضا مضمون</h4><p>+5000 عميل سعيد في جدة يثق بخدماتنا</p></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="section-header">
+    <div class="eyebrow">الأسئلة الشائعة</div>
+    <h3>كل ما تريد معرفته</h3>
+    <p>إجابات واضحة لأكثر الأسئلة شيوعاً حول خدمات الكهرباء والسباكة في جدة</p>
+  </div>
+  <div class="faq-list">
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>كم تكلفة كهربائي في جدة؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>تتراوح تكلفة الكهربائي في جدة بحسب نوع العمل: إصلاح الأعطال البسيطة من 80-200 ريال، التمديد الكهربائي من 500 ريال، تبديل اللوحة الكهربائية من 800 ريال. <strong>مع خصمنا 30% تحصل على أفضل سعر في جدة.</strong> اتصل الآن 0502758169 للحصول على عرض سعر مجاني.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">سعر كهربائي جدة</span><span class="faq-kw">تكلفة كهربائي</span><span class="faq-kw">أسعار الكهرباء جدة</span><span class="faq-kw">كهربائي رخيص جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>كم تكلفة إصلاح تسريب المياه في جدة؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>تكلفة كشف وإصلاح تسريب المياه في جدة يبدأ من 150 ريال للكشف باستخدام أجهزة متطورة، وإصلاح التسريب من 200 ريال حسب الموقع والعمق. مع خصم 30% ستوفر الكثير. اتصل الآن 0502758169.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">كشف تسربات المياه جدة</span><span class="faq-kw">إصلاح تسريب مياه</span><span class="faq-kw">سباك كشف تسرب</span><span class="faq-kw">تسريب خفي جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>هل تعملون 24 ساعة في أحياء جدة كلها؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>نعم، نعمل 24 ساعة يومياً 7 أيام في الأسبوع في جميع أحياء جدة شمالاً وجنوباً وشرقاً وغرباً. استجابتنا خلال 60 دقيقة في معظم الأحياء. اتصل الآن 0502758169 وسيصل الفني إليك فوراً.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">كهربائي طوارئ جدة</span><span class="faq-kw">سباك طوارئ 24 ساعة</span><span class="faq-kw">فني كهربائي الليل جدة</span><span class="faq-kw">خدمة فورية جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>ما أسباب انقطاع التيار الكهربائي في المنزل؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>أبرز أسباب انقطاع الكهرباء في المنزل: قطع القاطع الرئيسي، حمل زائد على الدائرة، قصر كهربائي، عطل في اللوحة الكهربائية، أو مشكلة خارجية من شركة الكهرباء. لا تحاول الإصلاح بنفسك — اتصل بنا الآن 0502758169 لتشخيص سريع وآمن.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">انقطاع الكهرباء</span><span class="faq-kw">قطع التيار الكهربائي</span><span class="faq-kw">عطل كهرباء المنزل</span><span class="faq-kw">قاطع كهربائي جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>كيف أعرف أن هناك تسريباً في المواسير؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>علامات وجود تسريب خفي في المواسير: ارتفاع فاتورة المياه، رطوبة في الجدران أو السقف، صوت تقطر المياه دون مصدر واضح، انتفاخ الطلاء، أو بقع صدأ. اتصل بنا فوراً 0502758169 للكشف بأجهزة متطورة دون تكسير.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">تسريب مواسير خفي</span><span class="faq-kw">كشف تسرب بدون تكسير</span><span class="faq-kw">رطوبة جدران جدة</span><span class="faq-kw">فاتورة مياه عالية جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>ما هي تكلفة تركيب لوحة كهربائية جديدة؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>تكلفة تركيب لوحة كهربائية في جدة تتراوح من 800 إلى 3000 ريال حسب حجم اللوحة وعدد القواطع ونوعها. مع خصم 30% ستحصل على أفضل سعر مع ضمان الجودة. اتصل الآن 0502758169 للحصول على تقدير مجاني.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">تركيب لوحة كهربائية جدة</span><span class="faq-kw">سعر لوحة توزيع</span><span class="faq-kw">قواطع كهربائية</span><span class="faq-kw">لوحة كهرباء جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>كيف أحجز موعداً مع كهربائي أو سباك؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>يمكنك حجز موعد بثلاث طرق سهلة: الاتصال المباشر على 0502758169، أو إرسال رسالة واتساب، أو الضغط على زر "احجز موعد" في هذا الموقع وتعبئة النموذج. سيتواصل معك فريقنا خلال دقائق.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">حجز كهربائي جدة</span><span class="faq-kw">موعد سباك جدة</span><span class="faq-kw">طلب فني كهربائي</span><span class="faq-kw">خدمة منزلية جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>هل تقدمون ضماناً على أعمال الكهرباء والسباكة؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>نعم، نقدم ضماناً مكتوباً على جميع أعمالنا. ضمان إصلاحات الكهرباء من 3 إلى 6 أشهر، وإصلاحات السباكة من شهر إلى 3 أشهر. إذا تكررت المشكلة خلال فترة الضمان نعود ونصلحها مجاناً. اتصل 0502758169.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">ضمان كهربائي جدة</span><span class="faq-kw">ضمان سباكة</span><span class="faq-kw">إصلاح مضمون جدة</span><span class="faq-kw">خدمة موثوقة جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>ما تكلفة انسداد المجاري والبيارة؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>تكلفة تسليك المجاري وفتح البيارة في جدة يبدأ من 150 ريال للانسداد البسيط بالضغط، وقد يصل إلى 500 ريال للحالات المعقدة التي تحتاج شفط أو تفتيش بالكاميرا. مع خصم 30% ستوفر الكثير.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">تسليك مجاري جدة</span><span class="faq-kw">فتح بيارة جدة</span><span class="faq-kw">انسداد حمام</span><span class="faq-kw">شفط بيارة جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        <span>هل تعملون في عطلة نهاية الأسبوع والأعياد؟</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a"><div class="faq-a-inner">
+        <p>نعم، نعمل في جميع أيام الأسبوع بما فيها الجمعة والسبت والأعياد الرسمية. نؤمن بأن الطوارئ لا تنتظر إجازة. فريق الطوارئ متاح 24 ساعة يومياً على الرقم 0502758169.</p>
+        <div class="faq-keywords">
+          <span class="faq-kw">كهربائي جمعة جدة</span><span class="faq-kw">سباك أعياد</span><span class="faq-kw">طوارئ نهاية الأسبوع</span><span class="faq-kw">خدمة العطل جدة</span>
+        </div>
+      </div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- AREAS SECTION -->
+<section class="areas-section">
+  <div class="section-header">
+    <div class="eyebrow">مناطق الخدمة</div>
+    <h3>نخدم جميع أحياء جدة</h3>
+    <p>كهربائي وسباك معتمد في كل حي بجدة — شمال، جنوب، شرق، غرب</p>
+  </div>
+
+  <div class="areas-tabs">
+    <button class="area-tab active" onclick="showArea('north')">🧭 شمال جدة</button>
+    <button class="area-tab" onclick="showArea('south')">🧭 جنوب جدة</button>
+    <button class="area-tab" onclick="showArea('east')">🧭 شرق جدة</button>
+    <button class="area-tab" onclick="showArea('west')">🧭 غرب جدة</button>
+  </div>
+
+  <!-- NORTH -->
+  <div class="areas-panel active" id="area-north">
+    <div class="area-direction-title">🧭 أحياء شمال جدة</div>
+    <div class="areas-grid">
+      <div class="area-card"><h5>حي الروضة</h5><div class="area-kws"><span class="area-kw">كهربائي الروضة</span><span class="area-kw">سباك الروضة</span><span class="area-kw">إصلاح مواسير الروضة</span><span class="area-kw">فني كهرباء الروضة جدة</span></div></div>
+      <div class="area-card"><h5>حي النزهة</h5><div class="area-kws"><span class="area-kw">كهربائي النزهة</span><span class="area-kw">تسليك مجاري النزهة</span><span class="area-kw">تركيب إضاءة النزهة</span><span class="area-kw">صيانة كهربائية النزهة</span></div></div>
+      <div class="area-card"><h5>حي الصفا</h5><div class="area-kws"><span class="area-kw">سباك الصفا جدة</span><span class="area-kw">كشف تسرب الصفا</span><span class="area-kw">كهربائي حي الصفا</span><span class="area-kw">تمديد كهربائي الصفا</span></div></div>
+      <div class="area-card"><h5>حي المروة</h5><div class="area-kws"><span class="area-kw">كهربائي المروة</span><span class="area-kw">إصلاح أعطال كهرباء المروة</span><span class="area-kw">سباك المروة</span><span class="area-kw">تركيب صحيات المروة</span></div></div>
+      <div class="area-card"><h5>حي الشرفية</h5><div class="area-kws"><span class="area-kw">كهربائي الشرفية</span><span class="area-kw">سباك الشرفية جدة</span><span class="area-kw">إصلاح مجاري الشرفية</span><span class="area-kw">لوحة كهربائية الشرفية</span></div></div>
+      <div class="area-card"><h5>حي أم السلم</h5><div class="area-kws"><span class="area-kw">فني كهربائي أم السلم</span><span class="area-kw">سباك أم السلم</span><span class="area-kw">تمديد مواسير أم السلم</span><span class="area-kw">طوارئ كهرباء أم السلم</span></div></div>
+      <div class="area-card"><h5>حي الزهراء</h5><div class="area-kws"><span class="area-kw">كهربائي الزهراء جدة</span><span class="area-kw">إصلاح سباكة الزهراء</span><span class="area-kw">كشف تسرب الزهراء</span><span class="area-kw">خدمة منزلية الزهراء</span></div></div>
+      <div class="area-card"><h5>حي الحمدانية</h5><div class="area-kws"><span class="area-kw">كهربائي الحمدانية</span><span class="area-kw">سباك الحمدانية جدة</span><span class="area-kw">انسداد مجاري الحمدانية</span><span class="area-kw">فني كهرباء الحمدانية</span></div></div>
+      <div class="area-card"><h5>حي مشرفة</h5><div class="area-kws"><span class="area-kw">كهربائي مشرفة</span><span class="area-kw">تسليك مجاري مشرفة</span><span class="area-kw">سباك حي مشرفة</span><span class="area-kw">إضاءة ليد مشرفة</span></div></div>
+      <div class="area-card"><h5>حي طيبة</h5><div class="area-kws"><span class="area-kw">كهربائي طيبة جدة</span><span class="area-kw">إصلاح مواسير طيبة</span><span class="area-kw">سباك طيبة جدة</span><span class="area-kw">صيانة كهربائية طيبة</span></div></div>
+      <div class="area-card"><h5>حي الرياض</h5><div class="area-kws"><span class="area-kw">كهربائي حي الرياض جدة</span><span class="area-kw">سباك حي الرياض</span><span class="area-kw">تركيب أحواض الرياض</span><span class="area-kw">قاطع كهربائي الرياض</span></div></div>
+      <div class="area-card"><h5>حي السلامة</h5><div class="area-kws"><span class="area-kw">كهربائي السلامة جدة</span><span class="area-kw">سباك السلامة</span><span class="area-kw">تسريب مياه السلامة</span><span class="area-kw">طوارئ سباكة السلامة</span></div></div>
+    </div>
+  </div>
+
+  <!-- SOUTH -->
+  <div class="areas-panel" id="area-south">
+    <div class="area-direction-title">🧭 أحياء جنوب جدة</div>
+    <div class="areas-grid">
+      <div class="area-card"><h5>حي البغدادية</h5><div class="area-kws"><span class="area-kw">كهربائي البغدادية</span><span class="area-kw">سباك البغدادية جدة</span><span class="area-kw">تمديد كابلات البغدادية</span><span class="area-kw">فتح بيارة البغدادية</span></div></div>
+      <div class="area-card"><h5>حي النسيم</h5><div class="area-kws"><span class="area-kw">كهربائي النسيم جدة</span><span class="area-kw">سباك النسيم</span><span class="area-kw">كشف تسرب النسيم</span><span class="area-kw">إصلاح حنفية النسيم</span></div></div>
+      <div class="area-card"><h5>حي الرحمانية</h5><div class="area-kws"><span class="area-kw">كهربائي الرحمانية</span><span class="area-kw">تسليك مجاري الرحمانية</span><span class="area-kw">لوحة توزيع الرحمانية</span><span class="area-kw">سباك الرحمانية جدة</span></div></div>
+      <div class="area-card"><h5>حي الجامعة</h5><div class="area-kws"><span class="area-kw">فني كهربائي الجامعة جدة</span><span class="area-kw">سباك الجامعة</span><span class="area-kw">صيانة منزلية الجامعة</span><span class="area-kw">إضاءة الجامعة جدة</span></div></div>
+      <div class="area-card"><h5>حي المسفلة</h5><div class="area-kws"><span class="area-kw">كهربائي المسفلة</span><span class="area-kw">سباك المسفلة جدة</span><span class="area-kw">إصلاح صنبور المسفلة</span><span class="area-kw">طوارئ كهرباء المسفلة</span></div></div>
+      <div class="area-card"><h5>حي الكندرة</h5><div class="area-kws"><span class="area-kw">كهربائي الكندرة</span><span class="area-kw">سباك الكندرة</span><span class="area-kw">تركيب مراحيض الكندرة</span><span class="area-kw">إصلاح كهرباء الكندرة</span></div></div>
+      <div class="area-card"><h5>حي العزيزية</h5><div class="area-kws"><span class="area-kw">كهربائي العزيزية جدة</span><span class="area-kw">سباك العزيزية</span><span class="area-kw">تسريب مياه العزيزية</span><span class="area-kw">تمديد كهربائي العزيزية</span></div></div>
+      <div class="area-card"><h5>حي الصناعية</h5><div class="area-kws"><span class="area-kw">كهربائي صناعية جدة</span><span class="area-kw">سباك صناعية جدة</span><span class="area-kw">تمديد كابلات صناعية</span><span class="area-kw">لوحة طاقة صناعية</span></div></div>
+      <div class="area-card"><h5>حي البساتين</h5><div class="area-kws"><span class="area-kw">كهربائي البساتين جدة</span><span class="area-kw">سباك البساتين</span><span class="area-kw">انسداد مجاري البساتين</span><span class="area-kw">فني صيانة البساتين</span></div></div>
+      <div class="area-card"><h5>حي السبيل</h5><div class="area-kws"><span class="area-kw">كهربائي السبيل جدة</span><span class="area-kw">تسليك صرف السبيل</span><span class="area-kw">سباك السبيل</span><span class="area-kw">إصلاح قاطع كهربائي السبيل</span></div></div>
+      <div class="area-card"><h5>حي بحرة</h5><div class="area-kws"><span class="area-kw">كهربائي بحرة</span><span class="area-kw">سباك بحرة جدة</span><span class="area-kw">كشف تسرب بحرة</span><span class="area-kw">صيانة منزلية بحرة</span></div></div>
+    </div>
+  </div>
+
+  <!-- EAST -->
+  <div class="areas-panel" id="area-east">
+    <div class="area-direction-title">🧭 أحياء شرق جدة</div>
+    <div class="areas-grid">
+      <div class="area-card"><h5>حي النهضة</h5><div class="area-kws"><span class="area-kw">كهربائي النهضة جدة</span><span class="area-kw">سباك النهضة</span><span class="area-kw">تركيب إضاءة النهضة</span><span class="area-kw">إصلاح مجاري النهضة</span></div></div>
+      <div class="area-card"><h5>حي السروات</h5><div class="area-kws"><span class="area-kw">كهربائي السروات جدة</span><span class="area-kw">سباك السروات</span><span class="area-kw">تسليك انسداد السروات</span><span class="area-kw">فني كهرباء السروات</span></div></div>
+      <div class="area-card"><h5>حي العوالي</h5><div class="area-kws"><span class="area-kw">كهربائي العوالي جدة</span><span class="area-kw">سباك العوالي</span><span class="area-kw">كشف تسرب العوالي</span><span class="area-kw">تمديد مواسير العوالي</span></div></div>
+      <div class="area-card"><h5>حي الفيصلية</h5><div class="area-kws"><span class="area-kw">كهربائي الفيصلية جدة</span><span class="area-kw">سباك الفيصلية</span><span class="area-kw">إصلاح حنفية الفيصلية</span><span class="area-kw">لوحة كهربائية الفيصلية</span></div></div>
+      <div class="area-card"><h5>حي السليمانية</h5><div class="area-kws"><span class="area-kw">كهربائي السليمانية جدة</span><span class="area-kw">سباك السليمانية</span><span class="area-kw">فتح بيارة السليمانية</span><span class="area-kw">تمديد كهربائي السليمانية</span></div></div>
+      <div class="area-card"><h5>حي الربوة</h5><div class="area-kws"><span class="area-kw">كهربائي الربوة جدة</span><span class="area-kw">سباك الربوة</span><span class="area-kw">تسريب مياه الربوة</span><span class="area-kw">إضاءة ديكور الربوة</span></div></div>
+      <div class="area-card"><h5>حي حارة الباب</h5><div class="area-kws"><span class="area-kw">كهربائي حارة الباب</span><span class="area-kw">سباك حارة الباب</span><span class="area-kw">إصلاح كهرباء حارة الباب</span><span class="area-kw">صيانة سباكة حارة الباب</span></div></div>
+      <div class="area-card"><h5>حي السبعين</h5><div class="area-kws"><span class="area-kw">كهربائي السبعين جدة</span><span class="area-kw">سباك السبعين</span><span class="area-kw">تسليك مجاري السبعين</span><span class="area-kw">فني منزلي السبعين</span></div></div>
+      <div class="area-card"><h5>حي الطيبة</h5><div class="area-kws"><span class="area-kw">كهربائي الطيبة جدة</span><span class="area-kw">سباك الطيبة</span><span class="area-kw">إصلاح خزان الطيبة</span><span class="area-kw">تركيب قواطع الطيبة</span></div></div>
+      <div class="area-card"><h5>حي الأمانة</h5><div class="area-kws"><span class="area-kw">كهربائي الأمانة جدة</span><span class="area-kw">سباك الأمانة</span><span class="area-kw">كشف تسرب الأمانة</span><span class="area-kw">طوارئ كهرباء الأمانة</span></div></div>
+      <div class="area-card"><h5>حي الخالدية</h5><div class="area-kws"><span class="area-kw">كهربائي الخالدية جدة</span><span class="area-kw">سباك الخالدية</span><span class="area-kw">تمديد مواسير الخالدية</span><span class="area-kw">صيانة لوحة الخالدية</span></div></div>
+    </div>
+  </div>
+
+  <!-- WEST -->
+  <div class="areas-panel" id="area-west">
+    <div class="area-direction-title">🧭 أحياء غرب جدة</div>
+    <div class="areas-grid">
+      <div class="area-card"><h5>حي الشاطئ</h5><div class="area-kws"><span class="area-kw">كهربائي الشاطئ جدة</span><span class="area-kw">سباك الشاطئ</span><span class="area-kw">إصلاح مواسير الشاطئ</span><span class="area-kw">تركيب إضاءة الشاطئ</span></div></div>
+      <div class="area-card"><h5>حي الكورنيش</h5><div class="area-kws"><span class="area-kw">كهربائي الكورنيش جدة</span><span class="area-kw">سباك الكورنيش</span><span class="area-kw">تسريب خزان الكورنيش</span><span class="area-kw">فني كهرباء الكورنيش</span></div></div>
+      <div class="area-card"><h5>حي أبحر الشمالية</h5><div class="area-kws"><span class="area-kw">كهربائي أبحر الشمالية</span><span class="area-kw">سباك أبحر الشمالية</span><span class="area-kw">كشف تسرب أبحر</span><span class="area-kw">تمديد كهربائي أبحر</span></div></div>
+      <div class="area-card"><h5>حي أبحر الجنوبية</h5><div class="area-kws"><span class="area-kw">كهربائي أبحر الجنوبية</span><span class="area-kw">سباك أبحر الجنوبية</span><span class="area-kw">إصلاح مجاري أبحر</span><span class="area-kw">لوحة كهرباء أبحر</span></div></div>
+      <div class="area-card"><h5>حي الحمراء</h5><div class="area-kws"><span class="area-kw">كهربائي الحمراء جدة</span><span class="area-kw">سباك الحمراء</span><span class="area-kw">تسليك الحمراء</span><span class="area-kw">تركيب صحيات الحمراء</span></div></div>
+      <div class="area-card"><h5>حي الواجهة البحرية</h5><div class="area-kws"><span class="area-kw">كهربائي الواجهة البحرية</span><span class="area-kw">سباك واجهة جدة</span><span class="area-kw">إضاءة الواجهة البحرية</span><span class="area-kw">صيانة منزلية الواجهة</span></div></div>
+      <div class="area-card"><h5>حي الرويس</h5><div class="area-kws"><span class="area-kw">كهربائي الرويس جدة</span><span class="area-kw">سباك الرويس</span><span class="area-kw">فني صيانة الرويس</span><span class="area-kw">كشف تسرب الرويس</span></div></div>
+      <div class="area-card"><h5>حي الهنداوية</h5><div class="area-kws"><span class="area-kw">كهربائي الهنداوية جدة</span><span class="area-kw">سباك الهنداوية</span><span class="area-kw">إصلاح كهرباء الهنداوية</span><span class="area-kw">تمديد مواسير الهنداوية</span></div></div>
+      <div class="area-card"><h5>حي السبيل الغربي</h5><div class="area-kws"><span class="area-kw">كهربائي السبيل</span><span class="area-kw">سباك السبيل جدة</span><span class="area-kw">إصلاح صرف السبيل</span><span class="area-kw">قاطع كهرباء السبيل</span></div></div>
+      <div class="area-card"><h5>حي الجامعة الغربي</h5><div class="area-kws"><span class="area-kw">كهربائي جامعة الملك</span><span class="area-kw">سباك جامعة الملك</span><span class="area-kw">صيانة كهربائية جامعة</span><span class="area-kw">تسليك مجاري جامعة جدة</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEW -->
+<section class="review-section">
+  <div class="section-header">
+    <div class="eyebrow">آراء العملاء</div>
+    <h3>صندوق التقييم</h3>
+    <p>شاركنا تجربتك — رأيك يهمنا كثيراً</p>
+  </div>
+  <div class="review-form-box">
+    <h4>📝 أضف تقييمك</h4>
+    <div class="star-rating" id="starRating">
+      <span class="star" onclick="setStars(5)">★</span>
+      <span class="star" onclick="setStars(4)">★</span>
+      <span class="star" onclick="setStars(3)">★</span>
+      <span class="star" onclick="setStars(2)">★</span>
+      <span class="star" onclick="setStars(1)">★</span>
+    </div>
+    <div class="form-group"><label>اسمك</label><input type="text" id="reviewName" placeholder="أدخل اسمك"></div>
+    <div class="form-group"><label>تقييمك</label><textarea id="reviewText" placeholder="شاركنا تجربتك مع الخدمة..."></textarea></div>
+    <button class="form-submit" onclick="submitReview()">📤 إرسال التقييم عبر واتساب</button>
+    <div class="success-msg" id="reviewSuccess">✅ شكراً! تم إرسال تقييمك بنجاح</div>
+  </div>
+  <div class="reviews-list" id="reviewsList">
+    <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">خدمة ممتازة وسريعة. الفني وصل خلال 40 دقيقة وحل مشكلة الكهرباء بسرعة. استفدت من خصم 30% وكان الأمر رائعاً.</p><div class="reviewer"><div class="reviewer-avatar">أ</div><div><div class="reviewer-name">أحمد السعيد</div><div class="reviewer-loc">حي الروضة، جدة</div></div></div></div>
+    <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">حل مشكلة تسريب المياه بدقة وسرعة. الفني محترم والأسعار معقولة جداً مع الخصم. سأتصل بهم مجدداً بالتأكيد.</p><div class="reviewer"><div class="reviewer-avatar">م</div><div><div class="reviewer-name">محمد العتيبي</div><div class="reviewer-loc">حي السلامة، جدة</div></div></div></div>
+    <div class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">أفضل كهربائي في جدة. الأسعار واضحة بلا مفاجآت، والعمل مضمون. خصم 30% جعل الأمر أفضل.</p><div class="reviewer"><div class="reviewer-avatar">س</div><div><div class="reviewer-name">سارة الزهراني</div><div class="reviewer-loc">حي الشاطئ، جدة</div></div></div></div>
+  </div>
+</section>
+
+<!-- EMERGENCY -->
+<section class="emergency">
+  <h3>🚨 حالة طارئة؟ اتصل الآن!</h3>
+  <p>فريقنا جاهز للاستجابة الفورية 24 ساعة — 7 أيام في الأسبوع — وخصم 30% على الطلب</p>
+  <a href="tel:0502758169">📞 0502758169</a>
+</section>
+
+<!-- SEO TEXT -->
+<div style="background:var(--blue-deep);padding:30px 5%">
+<p class="seo-text">كهربائي جدة | سباك جدة | 0502758169 | إصلاح كهرباء جدة | كشف تسربات المياه جدة | تمديد كهربائي جدة | تسليك مجاري جدة | فني كهرباء جدة | خدمة طوارئ كهرباء جدة | سباك ممتاز جدة | كهربائي ممتاز جدة | خدمة 24 ساعة جدة | أفضل كهربائي جدة | أفضل سباك جدة | إصلاح تسريب مياه جدة | تركيب لوحة كهربائية جدة | تركيب صحيات جدة | انسداد مجاري جدة | كهربائي شمال جدة | كهربائي جنوب جدة | كهربائي شرق جدة | كهربائي غرب جدة</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">⚡ كهربائي وسباك جدة ⚡</div>
+  <a href="tel:0502758169" class="footer-phone">📞 0502758169</a>
+  <div class="footer-links">
+    <a href="tel:0502758169">اتصل بنا</a>
+    <a href="https://wa.me/966502758169" target="_blank">واتساب</a>
+    <a onclick="openModal('booking')">احجز موعد</a>
+    <a onclick="openModal('consult')">استشارة مجانية</a>
+  </div>
+  <div class="footer-copy">© 2025 كهربائي وسباك جدة | جميع الحقوق محفوظة | رقم الجوال: 0502758169 | خصم 30% على جميع الخدمات</div>
+</footer>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/966502758169?text=السلام عليكم، أريد الاستفسار والاستفادة من خصم 30%" class="float-wa" target="_blank">💬</a>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('booking')">✕</button>
+    <h3>📅 احجز موعدك | خصم 30%</h3>
+    <div class="form-group"><label>الاسم الكريم</label><input type="text" id="bookName" placeholder="أدخل اسمك"></div>
+    <div class="form-group"><label>رقم الجوال</label><input type="tel" id="bookPhone" placeholder="05XXXXXXXX"></div>
+    <div class="form-group"><label>نوع الخدمة</label>
+      <select id="bookService">
+        <option value="">اختر الخدمة</option>
+        <option>إصلاح كهرباء</option><option>تمديد كهربائي</option><option>لوحة كهربائية</option>
+        <option>تركيب إضاءة</option><option>إصلاح سباكة</option><option>تسريب مياه</option>
+        <option>تسليك مجاري</option><option>تركيب صحيات</option><option>طوارئ كهرباء</option><option>أخرى</option>
+      </select>
+    </div>
+    <div class="form-group"><label>الحي في جدة</label><input type="text" id="bookArea" placeholder="مثال: حي الروضة"></div>
+    <div class="form-group"><label>الوقت المفضل</label><input type="text" id="bookTime" placeholder="مثال: اليوم بعد الظهر"></div>
+    <button class="form-submit" onclick="submitBooking()">📤 إرسال الحجز عبر واتساب</button>
+    <div class="success-msg" id="bookingSuccess">✅ تم إرسال طلب حجزك بنجاح!</div>
+  </div>
+</div>
+
+<!-- CONSULT MODAL -->
+<div class="modal-overlay" id="consultModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('consult')">✕</button>
+    <h3>💡 استشارة مجانية</h3>
+    <div class="form-group"><label>الاسم الكريم</label><input type="text" id="consultName" placeholder="أدخل اسمك"></div>
+    <div class="form-group"><label>رقم الجوال</label><input type="tel" id="consultPhone" placeholder="05XXXXXXXX"></div>
+    <div class="form-group"><label>وصف المشكلة أو الاستفسار</label><textarea id="consultMsg" placeholder="اشرح لنا مشكلتك وسنقدم لك الاستشارة المناسبة مجاناً..."></textarea></div>
+    <button class="form-submit" onclick="submitConsult()">📤 إرسال الاستشارة عبر واتساب</button>
+    <div class="success-msg" id="consultSuccess">✅ تم إرسال طلب استشارتك بنجاح!</div>
+  </div>
+</div>
+
+<script>
+const WA='966502758169';
+
+function openModal(t){document.getElementById(t+'Modal').classList.add('active');document.body.style.overflow='hidden'}
+function closeModal(t){document.getElementById(t+'Modal').classList.remove('active');document.body.style.overflow=''}
+document.querySelectorAll('.modal-overlay').forEach(m=>{m.addEventListener('click',function(e){if(e.target===m){m.classList.remove('active');document.body.style.overflow=''}})});
+
+function submitBooking(){
+  const n=document.getElementById('bookName').value.trim();
+  const p=document.getElementById('bookPhone').value.trim();
+  const s=document.getElementById('bookService').value;
+  const a=document.getElementById('bookArea').value.trim();
+  const t=document.getElementById('bookTime').value.trim();
+  if(!n||!p){alert('يرجى إدخال الاسم ورقم الجوال');return}
+  const msg=`🗓️ *طلب حجز موعد | خصم 30%*\n\n👤 الاسم: ${n}\n📞 الجوال: ${p}\n🔧 الخدمة: ${s||'غير محدد'}\n📍 الحي: ${a||'غير محدد'}\n⏰ الوقت: ${t||'غير محدد'}`;
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, '_blank');
+  document.getElementById('bookingSuccess').style.display='block';
+  setTimeout(()=>{closeModal('booking');document.getElementById('bookingSuccess').style.display='none'},2000);
+}
+
+function submitConsult(){
+  const n=document.getElementById('consultName').value.trim();
+  const p=document.getElementById('consultPhone').value.trim();
+  const m=document.getElementById('consultMsg').value.trim();
+  if(!n||!p){alert('يرجى إدخال الاسم ورقم الجوال');return}
+  const msg=`💡 *طلب استشارة مجانية*\n\n👤 الاسم: ${n}\n📞 الجوال: ${p}\n📝 الاستفسار: ${m||'غير محدد'}`;
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, '_blank');
+  document.getElementById('consultSuccess').style.display='block';
+  setTimeout(()=>{closeModal('consult');document.getElementById('consultSuccess').style.display='none'},2000);
+}
+
+let selStars=0;
+function setStars(v){
+  selStars=v;
+  document.querySelectorAll('.star').forEach((s,i)=>{s.classList.toggle('active',(5-i)<=v)});
+}
+
+function submitReview(){
+  const n=document.getElementById('reviewName').value.trim();
+  const t=document.getElementById('reviewText').value.trim();
+  if(!n||!t){alert('يرجى إدخال اسمك وتقييمك');return}
+  if(!selStars){alert('يرجى اختيار عدد النجوم');return}
+  const msg=`⭐ *تقييم جديد*\n\n👤 الاسم: ${n}\n${'★'.repeat(selStars)}${'☆'.repeat(5-selStars)}\n💬 ${t}`;
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, '_blank');
+  const list=document.getElementById('reviewsList');
+  const card=document.createElement('div');card.className='review-card';
+  card.innerHTML=`<div class="review-stars">${'★'.repeat(selStars)}</div><p class="review-text">${t}</p><div class="reviewer"><div class="reviewer-avatar">${n[0]}</div><div><div class="reviewer-name">${n}</div><div class="reviewer-loc">جدة</div></div></div>`;
+  list.insertBefore(card,list.firstChild);
+  document.getElementById('reviewName').value='';document.getElementById('reviewText').value='';setStars(0);
+  document.getElementById('reviewSuccess').style.display='block';
+  setTimeout(()=>{document.getElementById('reviewSuccess').style.display='none'},3000);
+}
+
+function toggleFaq(el){
+  const item=el.parentElement;
+  const ans=item.querySelector('.faq-a');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight='0'});
+  if(!isOpen){item.classList.add('open');ans.style.maxHeight=ans.scrollHeight+'px'}
+}
+
+function showArea(dir){
+  document.querySelectorAll('.areas-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.area-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('area-'+dir).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
